@@ -1,0 +1,23 @@
+// BOUTTON D'ACHAT 
+
+.bouttonPersonnalise {
+    box-shadow: 0px 0px 0px 0px #d1d1d1;
+    background-color: #9182ff;
+    border-radius: 42px;
+    border: 3px solid #828dfe;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 13px;
+    padding: 9px 10px;
+    text-shadow: 0px 1px 2px #828dfe;
+    margin: 15px;
+    font-family: 'Chakra Petch', sans-serif;
+    width: 80%;
+    font-weight: bold;
+  }
+  
+  .bouttonPersonnalise:hover {
+    background-color: #828dfe;
+  }
+  

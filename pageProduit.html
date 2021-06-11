@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+  <head>
+     
+    <meta charset="utf-8" />
+       
+    <title>Orinico - Accueil</title>
+       
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./js/produitSelect.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="main">
+      <header>
+        <a href="index.html">
+          <div class="logo">
+            <img src="img/logo.png" />
+          </div>
+        </a>
+        <div class="panierContent">
+          <a href="checkout.html">
+            <span class="panierContent">
+              <p>Panier</p>
+              <img style="width: 20px" src="img/bag.png" />
+              <p id="produitsAuPanier"></p>
+            </span>
+          </a>
+        </div>
+      </header>
+
+      <!-- Placement du contenu API du produit -->
+      <div id="containerPageProduit"></div>
+
+      <div class="popup" id="popup-1">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="togglePopup()">×</div>
+          <h1>Produit ajouté au panier !</h1>
+          <img style="width: 55px" src="img/check-circle.gif" />
+          <a href="index.html">
+            <button class="bouttonPersonnalise">Continuer mes achats</button>
+          </a>
+          <a href="checkout.html">
+            <button class="bouttonPersonnalise">Passer commande</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <div><img style="width: 280px" src="img/payement.png" /></div>
+    <div><img style="width: 100px" src="img/doge.png" /></div>
+    <div>© Orinoco 2021 - Tous droits réservés</div>
+  </footer>
+</html>
